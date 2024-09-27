@@ -11,6 +11,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+body{
+    background-color: #17191C;
 }
 .container{
     margin: 0 auto;
@@ -82,7 +86,7 @@
 .card{
     margin: 10% 20px;
     width: 362px;
-    height: 476px;
+    height: 376px;
     background-color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -106,15 +110,21 @@
 .second_subtitle{
     color: gray;
     margin-bottom: 10px;
+    
 }
 
 .card_button{
-    border: none;
+    margin-top: 10px;
+    border:1px solid #FF3D00;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 10px 20px;
+    background-color: #fff;
+    color: #FF3D00;
+}
+.card_button:hover{
     background-color: #FF3D00;
     color: #fff;
 }
