@@ -128,3 +128,22 @@ body{
     background-color: #FF3D00;
     color: #fff;
 }
+
+.news_title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0 20px;
+}
+.news_card_list{
+    display: flex;
+    
+}
+
+.newsCard{
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    margin: 0 20px;
+    margin-top: 40px;
+}
